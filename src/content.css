@@ -1,0 +1,74 @@
+/*WELCOME PAGE/DASHBOARD CSS*/
+
+.content {
+    grid-column: 7 / 25;
+    grid-row: 2 / 30;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.center-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+}
+.hi-block {
+    position: relative;
+    margin: 10px;
+    width: 30%;
+    width: 69%;
+    background-color: #deadac;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.hug {
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+    width: 15%;
+    opacity: 0.8;
+}
+/* TASK IS FOR ADDING NEW THOUGHTS */
+.task-holder, .task-adder {
+    flex-wrap: wrap;
+    margin: 10px;
+    display: flex;
+}
+/*FOR ADDING NEW THOUGHTS*/
+.task-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    flex-grow: 0.4;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.2s linear 0s;
+}
+/* Add thought block*/
+.task-add {
+    transition: 0.2s linear 0s;
+    background-color: #deadac;
+    display: flex;
+}
+.task-name-wrapper {
+    width: 60%;
+}
+.task-img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 60%;
+}
+/*Emotions graph*/
+.graph-holder {
+    margin-top: 40px;
+    margin-right: 10%;
+}
